@@ -27,7 +27,7 @@ class Buch {
 
 // Testen der Buchklasse
 const buch1 = new Buch("Der Herr der Ringe", "J.R.R. Tolkien", "978-3-608-93220-6");
-const buch2 = new Buch("Harry Potter und der Stein der Weisen", "J.K. Rowling", "978-3-12-002948-9");
+const buch2 = new Buch("Harry Potter und der Stein der Weisen ", "J.K. Rowling", "978-3-12-002948-9");
 
 console.log(buch1.ausleihen()); // Das Buch "Der Herr der Ringe" wurde erfolgreich ausgeliehen.
 console.log(buch1.ausleihen()); // Das Buch "Der Herr der Ringe" ist bereits ausgeliehen.
