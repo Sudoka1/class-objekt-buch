@@ -36,14 +36,14 @@ class Huehner extends Tier {
     }
 }
 
-// Unterklasse für Schweine
-class Schwein extends Tier {
+// Unterklasse für Lamme
+class Lamm extends Tier {
     constructor(name) {
-        super(name, "Oink!");
+        super(name, "Beee!");
     }
 
     essen() {
-        return super.essen("Schweinefutter");
+        return super.essen("Lammeefutter");
     }
 }
 
@@ -52,8 +52,8 @@ const kuh1 = new Kuh("Berta");
 const kuh2 = new Kuh("Molly");
 const huehner1 = new Huehner("Hansi");
 const huehner2 = new Huehner("Frieda");
-const schwein1 = new Schwein("Wutz");
-const schwein2 = new Schwein("Ferkel");
+const lamm1 = new Lamm("Schaf");
+const lamm2 = new Lamm("Ferkel");
 
 // Ausgabe der Informationen über die Tiere
 console.log(kuh1.name + " macht: " + kuh1.machenSound()); // Berta macht: Muh!
@@ -62,5 +62,5 @@ console.log(kuh1.essen()); // Berta isst Gras.
 console.log(huehner1.name + " macht: " + huehner1.machenSound()); // Hansi macht: Kikeriki!
 console.log(huehner1.essen()); // Hansi isst Körner.
 
-console.log(schwein1.name + " macht: " + schwein1.machenSound()); // Wutz macht: Oink!
-console.log(schwein1.essen()); // Wutz isst Schweinefutter.
+console.log(lamm1.name + " macht: " + lamm1.machenSound()); // Wutz macht: Beee!
+console.log(lamm1.essen()); // Wutz isst Lammeefutter.
