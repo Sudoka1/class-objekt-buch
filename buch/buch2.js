@@ -34,4 +34,4 @@ console.log(buch1.zurueckgeben()); // Das Buch "Genius Sudo" wurde erfolgreich z
 
 console.log(buch2.ausleihen()); // Das Buch "Karate-do, der Weg für die Perfektion" wurde erfolgreich ausgeliehen.
 console.log(buch2.zurueckgeben()); // Das Buch "Karate-do, der Weg für die Perfektion" wurde erfolgreich zurückgegeben.
-console.log(buch2.zurueckgeben()); // Das Buch "Karate-do, der Weg für die Perfektion" ist bereits verfügbar.
+console.log(buch2.zurueckgeben()); // Das Buch "Karate-do, der Weg für die Perfektion" ist bereits verfügbar..
