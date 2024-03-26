@@ -1,9 +1,9 @@
 class Buch {
-  constructor(titel, autor, isbn) {
+  constructor(titel, autor, isbn, verfuegbar = true) {
       this.titel = titel;
       this.autor = autor;
       this.isbn = isbn;
-      this.verfuegbar = true;
+      this.verfuegbar = verfuegbar;
   }
 
   ausleihen() {
