@@ -62,5 +62,5 @@ console.log(kuh1.essen()); // Berta isst Gras.
 console.log(huehner1.name + " macht: " + huehner1.machenSound()); // Hansi macht: Kikeriki!
 console.log(huehner1.essen()); // Hansi isst Körner.
 
-console.log(lamm1.name + " macht: " + lamm1.machenSound()); // Wutz macht: Beee!
+console.log(lamm1.name + " macht: " + lamm1.machenSound()); // Schaf macht: Beee!
 console.log(lamm1.essen()); // Wutz isst Lammeefutter.
